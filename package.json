@@ -2,8 +2,9 @@
   "name": "tarotinitiatique",
   "version": "1.0.0",
   "description": "an app to use tarot in writting an initiatic novel",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
+    "start": "nodemon --exec babel-node src/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +16,14 @@
   "bugs": {
     "url": "https://github.com/natoine/tarotinitiatique/issues"
   },
-  "homepage": "https://github.com/natoine/tarotinitiatique#readme"
+  "homepage": "https://github.com/natoine/tarotinitiatique#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/node": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "nodemon": "^1.19.1"
+  }
 }
