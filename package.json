@@ -1,0 +1,19 @@
+{
+  "name": "tarotinitiatique",
+  "version": "1.0.0",
+  "description": "an app to use tarot in writting an initiatic novel",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/natoine/tarotinitiatique.git"
+  },
+  "author": "natoine",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/natoine/tarotinitiatique/issues"
+  },
+  "homepage": "https://github.com/natoine/tarotinitiatique#readme"
+}
